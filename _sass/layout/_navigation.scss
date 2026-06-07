@@ -205,13 +205,45 @@
   .visible-links {
     display: table;
 
+    @include breakpoint($large) {
+      display: grid;
+      grid-template-columns: minmax(8rem, 1fr) repeat(4, minmax(max-content, 1fr)) 3rem;
+      align-items: center;
+      width: 100%;
+    }
+
     li {
       display: table-cell;
       vertical-align: middle;
 
+      @include breakpoint($large) {
+        display: flex;
+        justify-content: center;
+
+        a {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+
       &:first-child {
         font-weight: bold;
         text-wrap: wrap;
+
+        @include breakpoint($large) {
+          justify-content: flex-start;
+
+          a {
+            font-size: 1.08rem;
+            transform: translateX(-0.75rem);
+          }
+        }
+
+        @include breakpoint($x-large) {
+          a {
+            transform: none;
+          }
+        }
 
         a {
           margin-left: 0;

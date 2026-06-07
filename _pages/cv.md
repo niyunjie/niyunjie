@@ -11,54 +11,38 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+
+* Beijing University of Civil Engineering and Architecture, 2023.09 - 2027.07
+  * Undergraduate student in Automation
+  * Joint cultivation program with Beijing Institute of Technology
+
+* Beijing Institute of Technology, 2023.09 - 2026.07
+  * Undergraduate student in Automation
+  * Joint cultivation program with Beijing University of Civil Engineering and Architecture
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* To be updated.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* MATLAB
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* To be updated.
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* To be updated.
   
-Teaching
+Awards and certificates
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+* To be updated.
+
+Contact
 ======
-* Currently signed in to 43 different slack teams
+* Email: [contact@niyunjie.com](mailto:contact@niyunjie.com)
+* GitHub: [github.com/niyunjie](https://github.com/niyunjie)
+* ORCID: [0009-0001-9982-3722](https://orcid.org/0009-0001-9982-3722)
